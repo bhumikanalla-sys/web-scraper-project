@@ -1,23 +1,23 @@
 # web-scraper-project
-📌 Project Description
+ Project Description
 
 This project is a web scraping automation system built using Python. It extracts data from websites and displays it in a Flask-based web dashboard. The system uses BeautifulSoup for scraping and Flask for the frontend interface.
 
-🚀 Features
+ Features
 Web scraping using Python
 Data extraction from websites
 Flask web dashboard to display data
 SQLite database storage (optional)
 Clean and simple UI
 Easy to extend for real-world use
-🛠️ Technologies Used
+Technologies Used
 Python
 Flask
 BeautifulSoup
 Requests
 HTML (Jinja2 templates)
 SQLite (optional)
-📁 Project Structure
+Project Structure
 web_scraper_project/
 │
 ├── app.py                # Flask main application
@@ -26,7 +26,7 @@ web_scraper_project/
 │     └── index.html     # Web UI page
 ├── requirements.txt     # Dependencies
 └── README.md            # Project documentation
-⚙️ How to Run the Project
+How to Run the Project
 1. Install dependencies
 pip install -r requirements.txt
 2. Run Flask app
