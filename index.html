@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        .card { background: #f4f4f4; padding: 10px; margin: 10px; border-radius: 8px; }
+        .quote { font-size: 18px; }
+        .author { color: gray; }
+    </style>
+</head>
+
+<body>
+
+<h1>📊 Web Scraper Dashboard</h1>
+
+{% for quote, author in data %}
+
+<div class="card">
+    <div class="quote">{{ quote }}</div>
+    <div class="author">- {{ author }}</div>
+</div>
+
+{% endfor %}
+
+</body>
+</html>
